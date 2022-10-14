@@ -8,6 +8,7 @@
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
