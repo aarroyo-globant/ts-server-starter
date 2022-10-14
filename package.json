@@ -43,6 +43,13 @@
   "dependencies": {
     "@commitlint/config-angular": "^17.1.0",
     "@commitlint/config-conventional": "^17.1.0",
-    "@jest/types": "^29.1.2"
+    "@jest/types": "^29.1.2",
+    "@types/ramda": "^0.28.15",
+    "inversify": "^6.0.1",
+    "moment": "^2.29.4",
+    "ramda": "^0.28.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.7",
+    "supertest": "^6.3.0"
   }
 }
