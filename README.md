@@ -8,6 +8,10 @@
 
 GTS is Google's TypeScript style guide, and the configuration for our formatter, linter, and automatic code fixer. No lint rules to edit, no configuration to update, and no more bikeshedding over syntax.
 
+To add webhooks features please add the following command:
+
+`npx husky add .husky/commit-msg  "npx --no -- commitlint --edit ${1}"`
+
 ## Table of Contents
 
 - [About GTS](#about-gts)
